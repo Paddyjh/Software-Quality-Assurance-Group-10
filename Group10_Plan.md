@@ -24,7 +24,7 @@ Each team member is fully aware of these deadlines and has committed to follow t
 
 Approval Criteria
 -   Work must be free of spelling mistakes and grammatical errors.
--   Work must conatin referneces
+-   Work must contain references
 -   Work must be of a high quality and easy to follow. The goal is for a new team member with minimal knowledge to be able to understand this document.
 -   Two individuals, excluding the original author, must approve all work before merging into a branch.
 -   Work must be styled nicely, using correct formatting and other design elements where possible.
