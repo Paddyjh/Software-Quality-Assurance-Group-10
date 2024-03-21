@@ -1,10 +1,11 @@
 
-Group 10 Plan for Group Assignment
+# Group 10
+# Plan for Group Assignment
 
 Firstly, we had a meeting to discuss the project and also to assign a member to the different topics, each member chose two topics each. We then discussed on decided on the following plan which we will follow to maximise our collaboration and learning from this assignment.
 We also created a test git repository to ensure that our rules requiring two user approvals were working correctly for pull requests and merging
 
-Plan
+## Plan
 -   Each member of the group will revise the lecture on git-flow and further research the topic to ensure all members fully understand the git-flow process.
 -   The team will create a develop branch from the main branch
 -   The team will create a feature branch from the develop branch for each topic.
@@ -16,15 +17,21 @@ Plan
 -   Once all sections have been successfully merged into the feature branch, this branch can then be merged into the develop branch.
 -   Once all features (topics) have been successfully merged into develop branch then this branch can be merged into master.
 
-Time frames
+## Time frames
 -   We have set a deadline of two days for code reviews to take place. This means that both developers not working on a particular section should have reviewed the submitted pull request within 24 hours of it being uploaded to git.
 -   We have set a deadline for the first drafts of each topic on the 21st of March. 
 -   We have set the deadline for the final draft as the 24th of March at 12 pm. This means we must have all features fully developed and merged into the main branch by the 24th of March
 Each team member is fully aware of these deadlines and has committed to follow them.
 
-Approval Criteria
+## Approval Criteria
 -   Work must be free of spelling mistakes and grammatical errors.
 -   Work must contain references
 -   Work must be of a high quality and easy to follow. The goal is for a new team member with minimal knowledge to be able to understand this document.
--   Two individuals, excluding the original author, must approve all work before merging into a branch.
+-   Two individuals, excluding the original author, must approve all work before merging into a branch. **(Our git ruleset enforces this)**
+-   All pull request comments must be resolved before merging. **(Our git ruleset enforces this)**
 -   Work must be styled nicely, using correct formatting and other design elements where possible.
+
+## Naming conventions
+-   Feature branches must be named in the following format: "feature/Name-Of-Feature"
+-   All commits must be named in the following format: "Name-Of-Feature-description-of-commit" **(Only the Feature name is capitalised)**
+-   Bug fix branches must be named in the following format: "bugfix/description-of-bugfix"
