@@ -6,4 +6,4 @@
 
 ## Code Reviews
 
-## Continuous Integration
+## Continuous Integration & Deployment
