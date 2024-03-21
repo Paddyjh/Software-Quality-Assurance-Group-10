@@ -6,4 +6,4 @@
 
 ## Code Reviews
 
-## Defect Management
+## Continuous Integration
