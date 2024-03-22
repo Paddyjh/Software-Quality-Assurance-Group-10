@@ -53,7 +53,27 @@
 - This facilitates quicker feedback, better usage of our resources, and increased test coverage as we can now run more tests.
 
 
-### Deployment Strategies 
+### Deployment Process 
+
+#### Canary Strategy
+- Developers should follow a Canary Deployment Strategy to ensure fast deployment and feedback while minimizing the risk of defects affecting users.
+	- A new version of the application should be rolled out to a select group of users 
+	- Data and feedback are gathered from the users and is incorporated into the new version before deploying to the entire user base
+	- If an issue is identified we can roll back the application to the previous state and address the issues, which will only affect the canary users
+	- We incrementally roll out the update to more users until all users are on the updated version, continuing to incorporate feedback and monitor the application 
+
+#### Automatic Deployment Process
+- Deployment similar to integration should be automated using CI/CD tools like Jenkins 
+- Infrastructure as code should be used to ensure a consistent environment, tools like terraform and ansible should be utilised 
+
+#### Feature Toggle
+- Developers should implement feature toggle (or flags) to enable the toggling on and off of features without the need to redeploy code
+- This is useful with canary as it allows us to make dynamic changes to our application without downtime.
+
+#### Roll back Strategy
+- The rollback strategy should be automatically triggered if the deployment fails, there is a significant increase in error rates, security vulnerabilities are detected or if user feedback is negative. 
+- If the issue is feature-specific, we can toggle the feature off and either remove it or improve based on feedback. If the issue is more widespread we roll back to previous stable version. 
+
 
 ### Monitoring and feedback loops
 
