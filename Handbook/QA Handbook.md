@@ -16,7 +16,7 @@
     - Pre-Commit Reviews - This is where code is reviewed before it is merged into the main branch.
 - Google mandates code reviews and and follows the Pre-commit review. Below is a diagram of their Code Review Flow.
 
-![Googles Code Review Flow](https://miro.medium.com/v2/resize:fit:720/format:webp/0*lhrhb9kOHZiXPYCU)
+![Googles Code Review Flow](../Image_Folder/GoogleCRFlow.png)
 
 ## Best Practices for Conducting Effective Code Reviews
 
@@ -34,10 +34,26 @@
     - Seek and give clarity when needed. Be prepared to offer clarity on code you have produced and seek clarity when feedback is unclear.
     - Small, incremental code changes should be the aim as code with many lines is more straneous to review. 
 
-    ![Tweet](../Image Folder/@iamdeveloper_tweet.png)
+    ![Tweet](../Image_Folder/@iamdeveloper_tweet.png)
 
 
 ## The Psychological Aspects of Code Reviews
+
+- Understanding the psychological aspects of code reviews are vital to ensure effective code reviews because they impact team collaboration dynamics and team members personal growth. Code review procedures can be improved and made more productive by comprehending and taking care of these factors. 
+
+- Ownership: The 'endowment effect' shows that people value their work more highly simply because it's theirs, making objective self-review and acceptance of criticism challenging.
+- Worthwhileness vs Conflict Potential: When conducting a code review, certain review comments will carry more risk of potential conflict and may not be worthwhile commenting while some comments are certainly worthwhile. To explain, below is a grid that places certain comments along two axes: worthwhileness and conflict potential. 
+
+    ![Worthwhileness vs Conflict Potential Diagram](../Image_Folder/WorthVSConflict.png)
+
+- There are approaches both reviewers and reviewees can take to avoid conflict and encourage collaboration
+    - Reviewers
+        - Use collaborative language and avoid using the word "You". For example, a better way of saying "Your code is inefficient" would be "How could we optimize this for better performance".
+        - Avoid leaving many comments where possible as this can demotivate the reviewer, instead prioritise essential comments, which brings the code up to a level of acceptance.
+        - As well as leaving constructive feedback, always attempt to leave a positive comment on something you felt was done well. This can boost the confidence of the reviewee.
+    - Reviewee
+        - Seems simple but ensure you reply to comments left by a reviewer as well as thanking them for taking the time to review your code.
+        - Ensure to annotate your pull request to give context to your changes to the reviewer.
 
 ## Advantages and Disadvantages of Code Reviews
 
