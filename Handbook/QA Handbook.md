@@ -72,6 +72,11 @@
     - **Oversights:** There is always a risk that some bugs, bad practices, etc, may be overlooked by reviewers, especially if a review is long, and fatigue may play a factor.
         - Mitigation: Encourage smaller incremental changes to reduce the size of code reviews, set a time limit for looking at a code review in one sitting and introduce automation tools to identify issues early and reduce the number in reviews.
 
+### Code reviews in CI/CD
+- Code reviews play an important role in the continuous integration and deployment process which is outlined [below](#continuous-integration--deployment)
+- Code reviews occur when a pull request is created to merge a branch into the develop branch after passing the automated tests.
+- Code reviews can also be automated using static analysis tools, linters, and automated security vulnerability scanners. These tools can automatically flag potential issues before a human reviewer looks at the code.
+
 
 ## Continuous Integration & Deployment
 
