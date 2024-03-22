@@ -9,6 +9,22 @@
 ## Continuous Integration & Deployment
 
 ### Continuous Integration Workflow
+#### Gitflow compliance
+-	All developers must follow our company Gitflow branching strategy outlined in the diagram below and the following link.
+#### Commiting practices
+-	Developers are encouraged to commit changes to their branches often (commit once one logical unit of work is completed)
+#### CI platform integration
+-	These commits should trigger an automated build and test process utilising a CI platform like Jenkins, Travis CI or GitHub actions.
+#### Containerization Strategy
+-	Automation should utilise containerisation solutions like docker to ensure a uniform build and testing environment that replicates the production environment. This avoids the famous “it works on my machine” issue.
+#### Automated Testing Guidelines
+-	Guidelines for creating these automated tests are in the section below.
+#### Failure Response Protocol
+-	If a build or test fails, the team should be notified so that the issue can be addressed immediately, no new code should be added until the issue is resolved.
+#### Local and Manual Testing
+-	Developers should not neglect testing locally, as over-reliance on automated testing may slow down our pipeline.
+-	Developers should also not neglect manual testing; it is still important to perform Exploratory tests, User experience tests, etc, to test unique scenarios automation may not cover. 
+
 
 ### Automated Testing 
 
