@@ -57,5 +57,21 @@
 
 ### Advantages and Disadvantages of Code Reviews
 
+- **Advantages of code reviews**
+    - **Enhanced code quality:** Independent reviewers can identify spelling mistakes, formatting issues, potential bugs, errors in logic, or security vulnerabilities that automated testing may miss, therefore enhancing the code quality and reducing the risk of bugs.
+    - **Mentorship:** Code reviews allow developers to gain insights into their own code from feedback from developers with varying experiences, allowing the developer to improve their coding ability.
+    - **Knowledge Sharing:** Reviewers can also learn best practices from reviewing other developers' code while also gaining a better knowledge of the code base as they may be asked to review a section of code they have never looked at before.
+
+- **Disadvantages of code reviews**
+    - **Time-consuming:** Code reviews can be time-consuming, taking time away from developing features, which can delay releases, especially in teams with limited developer capacity.
+        - Mitigation: Ensure the team spreads the work of code reviews, avoiding over-reliance on certain developers 
+    - **Conflict potential:** The potential for conflict to arise among developers if opinions differ and communication is not polite/collaborative.
+        - Mitigation: Ensure all team members communicate in a collaborative and professional manner 
+    - **Demoralizing:** Similarly, if feedback is not presented in a rude or non-constructive manner, the developer may feel demoralized and unmotivated.
+        - Mitigation: Ensure feedback is given in a constructive and respective manner 
+    - **Oversights:** There is always a risk that some bugs, bad practices, etc, may be overlooked by reviewers, especially if a review is long, and fatigue may play a factor.
+        - Mitigation: Encourage smaller incremental changes to reduce the size of code reviews, set a time limit for looking at a code review in one sitting and introduce automation tools to identify issues early and reduce the number in reviews.
+
+
 ## Continuous Integration & Deployment
 
