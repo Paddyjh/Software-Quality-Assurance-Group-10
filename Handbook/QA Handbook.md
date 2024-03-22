@@ -1,12 +1,12 @@
 # **Quality Assurance Handbook**
 
-# **Introduction**
+## Introduction
 
-# **Task Estimation in Scrum**
+## Task Estimation in Scrum
 
-# **Code Reviews**
+## Code Reviews
 
-## What Are Code Reviews?
+### What Are Code Reviews?
  
  - A code review is the task of someone who is not the author reviewing a piece of code before it is merged to the main codebase 
  - A code review is an essential practice to ensure that the code is high quality, aligns with predetermined standards, contains no mistakes
@@ -18,7 +18,7 @@
 
 ![Googles Code Review Flow](../Image_Folder/GoogleCRFlow.png)
 
-## Best Practices for Conducting Effective Code Reviews
+### Best Practices for Conducting Effective Code Reviews
 
 - Although there are many different approaches to conducting a code review, there are some key practices that should be considered for the code review to be effective. 
 - As well as key practices, included in this section are some practices that we feel are beneficial to fostering a positive and effective feedback 
@@ -37,7 +37,7 @@
     ![Tweet](../Image_Folder/@iamdeveloper_tweet.png)
 
 
-## The Psychological Aspects of Code Reviews
+### The Psychological Aspects of Code Reviews
 
 - Understanding the psychological aspects of code reviews are vital to ensure effective code reviews because they impact team collaboration dynamics and team members personal growth. Code review procedures can be improved and made more productive by comprehending and taking care of these factors. 
 
@@ -55,6 +55,6 @@
         - Seems simple but ensure you reply to comments left by a reviewer as well as thanking them for taking the time to review your code.
         - Ensure to annotate your pull request to give context to your changes to the reviewer.
 
-## Advantages and Disadvantages of Code Reviews
+### Advantages and Disadvantages of Code Reviews
 
-# **Defect Management**
+## Defect Management
