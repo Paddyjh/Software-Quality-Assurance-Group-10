@@ -1,4 +1,4 @@
-# Quality Assurance Handbook
+﻿# Quality Assurance Handbook
 
 ## Introduction
 
@@ -79,7 +79,14 @@
 - The rollback strategy should be automatically triggered if the deployment fails, there is a significant increase in error rates, security vulnerabilities are detected or if user feedback is negative. 
 - If the issue is feature-specific, we can toggle the feature off and either remove it or improve based on feedback. If the issue is more widespread we roll back to previous stable version. 
 
-
 ### Monitoring and feedback loops
+![Monitoring_Feedback_Diagram](/Image_Folder/Monitoring_Feeback_Diagram.png)
+* View: During the project building process, keep update and send feedback to different parts is important. 
+* Adjustment: Feedback received by different departments to make changes. Improvement: Under the agile monitoring and feedback system, fast feedback, fast verification, and fast delivery are inevitable
 
 ### Security Practices 
+- Establish inspection department: 
+- Conduct safety awareness training：Software development teams must understand all the security challenges they may face during the development process. It would be helpful for them to learn about common security attacks related to software development, especially those related to their own enterprise domain. When developers know how cybercriminals and hackers work, they can avoid coding practices that can be exploited. Frequent meetings can be organized where team members can interact with each other and discuss secure development techniques. These sessions will help them understand how to write code that can withstand cyber-attacks.
+- Security access authority: Databases are one of the most valuable and critical parts of any software system and therefore need to be properly configured and secured. A team needs to ensure that data does not result in leaks or unauthorized access due to overlooked vulnerabilities in the system. Implementing a digital user identity will allow security teams to restrict access to different users/developers so that they can only access what is needed for their work in a particular practice.
+
+
