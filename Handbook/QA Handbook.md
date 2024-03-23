@@ -19,4 +19,4 @@ Developers and testers evaluate the workload according to the requirements and d
 
 ## Code Reviews
 
-## Defect Management
+## Continuous Integration & Deployment
