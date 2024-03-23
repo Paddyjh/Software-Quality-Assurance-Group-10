@@ -5,6 +5,17 @@
 ## Task Estimation in Scrum
   
 ### Introduction  
+- Task estimation is the process a scrum team goes through outlining how long a given task or user story will take to complete. 
+    - Teams usually measure using units like story points, ideal days or hours. 
+
+    - There are also various methods for calculating these units, like planning poker and t-shirt sizing, etc, which we will discuss [below.](#estimation-techniques) 
+    
+    - These methods take all team members' opinions into account to facilitate a more accurate estimation process. 
+
+    - The primary goal of task estimation is to improve the accuracy of sprint planning and facilitate sustainable/predictable project progress.
+
+    - In the below sections, we will outline guidelines and best practices related to the topic of task estimation in scrum while also highlighting what should be avoided in relevant sections.
+
 
 ### Estimation Techniques
 
