@@ -8,6 +8,14 @@
 
 ## Continuous Integration & Deployment
 
+### Introduction
+- CI/Cd is a DevOps practice which stands for Continuous Integration and Deployment. 
+
+- **Continuous Integration** is the practice of committing code to a repository very frequently, these repositories have automated workflows to build and test the committed code. If either process fails, the team is informed, and merging is stalled until the issue has been resolved. This practice identifies issues in the code early, therefore reducing code incompatibility and merge conflicts.
+
+- **Continuous Deployment** is the practice of frequently deploying code to production through automated pipelines. There are many deployment strategies, such as blue/green, canary, shadow, etc. We recommend Canary, as outlined, and justified [below.](#canary-strategy)
+
+
 ### Continuous Integration Workflow
 ![continuous-integration-workflow-diagram](/Image_Folder/continuous-integration-workflow-diagram.png)
 #### Gitflow compliance
