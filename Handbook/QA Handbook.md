@@ -82,6 +82,7 @@
 #### Feature Toggle
 - Developers should implement feature toggle (or flags) to enable the toggling on and off of features without the need to redeploy code
 - This is useful with canary as it allows us to make dynamic changes to our application without downtime.
+- A step-by-step approach to app release that splits traffic between a deployed version and a new version, releasing to a subset of users before a full rollout.
 ![feature-toggle-diagram](/Image_Folder/feature-toggle-diagram.png)
 #### Roll back Strategy
 - The rollback strategy should be automatically triggered if the deployment fails, there is a significant increase in error rates, security vulnerabilities are detected or if user feedback is negative. 
@@ -93,8 +94,9 @@
 * Adjustment: Feedback received by different departments to make changes. Improvement: Under the agile monitoring and feedback system, fast feedback, fast verification, and fast delivery are inevitable
 
 ### Security Practices 
-- Establish inspection department: 
-- Conduct safety awareness training：Software development teams must understand all the security challenges they may face during the development process. It would be helpful for them to learn about common security attacks related to software development, especially those related to their own enterprise domain. When developers know how cybercriminals and hackers work, they can avoid coding practices that can be exploited. Frequent meetings can be organized where team members can interact with each other and discuss secure development techniques. These sessions will help them understand how to write code that can withstand cyber-attacks.
-- Security access authority: Databases are one of the most valuable and critical parts of any software system and therefore need to be properly configured and secured. A team needs to ensure that data does not result in leaks or unauthorized access due to overlooked vulnerabilities in the system. Implementing a digital user identity will allow security teams to restrict access to different users/developers so that they can only access what is needed for their work in a particular practice.
+- Software must ensure that its content, resource management, and its own characteristics, including its operating environment and connections between users, are hidden from unauthorized entities.
+- Software and the resources managed by it must be resistant to active attacks, protected from modification and destruction by unauthorized users, and able to recover from damaged states.
+- The software can be accessed by authorized users and used according to demand, that is, the use of the system and resources by legitimate users will not be unreasonably denied.
+
 
 
