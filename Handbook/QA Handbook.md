@@ -73,6 +73,9 @@
 - Task estimation is not an exact science, and estimates should be adjusted dynamically during the sprint as new information becomes available to ensure the team is informed and deadlines can be adjusted accordingly.
 - The team should experiment with different planning techniques as mentioned previously until they find one that produces the most accuracy for their team
 
+#### Our Task estimation process
+![our-estimation-process-diagram](/Image_Folder/our-estimation-process-diagram.png)
+
 ### Team Velocity and Calculating Estimations 
 
 #### What is team velocity
