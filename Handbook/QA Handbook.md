@@ -21,7 +21,7 @@
 #### Gitflow compliance
 -	All developers must follow our company Gitflow branching strategy outlined in the diagram below and the following [link](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
 ![gitflow-diagram](/Image_Folder/git-flow-diagram.png)
-#### Commiting practices
+#### Committing practices
 -	Developers are encouraged to commit changes to their branches often (commit once one logical unit of work is completed)
 #### CI platform integration
 -	These commits should trigger an automated build and test process utilising a CI platform like Jenkins, Travis CI or GitHub actions.
@@ -76,7 +76,7 @@
 
 #### Automatic Deployment Process
 - Deployment similar to integration should be automated using CI/CD tools like Jenkins 
-- Infrastructure as code should be used to ensure a consistent environment, tools like terraform and ansible should be utilised 
+- Infrastructure as code should be used to ensure a consistent environment, tools like Terraform and Ansible should be utilised 
 ![automatic-deployment-diagram](/Image_Folder/automatic-deployment-diagram.png)
 
 #### Feature Toggle
