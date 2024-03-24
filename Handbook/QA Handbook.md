@@ -67,7 +67,7 @@
 ### Deployment Process 
 
 #### Canary Strategy
-- Developers should follow a Canary Deployment Strategy to ensure fast deployment and feedback while minimizing the risk of defects affecting users.
+- Developers should follow a Canary Deployment Strategy to ensure fast deployment and feedback while minimizing the risk of defects affecting users. This is ideal for our fast-moving team, to ensure we are developing quickly while also reducing the current issue of high defects making it to production.
 	- A new version of the application should be rolled out to a select group of users 
 	- Data and feedback are gathered from the users and is incorporated into the new version before deploying to the entire user base
 	- If an issue is identified we can roll back the application to the previous state and address the issues, which will only affect the canary users
