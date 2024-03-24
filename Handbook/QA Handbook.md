@@ -27,10 +27,10 @@
 
 	- Challenges
 
-		- Optimism and Individual Bias: Estimators may experience optimism or personal bias which can hinder on an accurate estimation.
+		- Optimism and Individual Bias: Estimators may experience optimism or personal bias which can hinder accurate estimation.
 		- Understanding Task Complexity: Misunderstanding the task or not knowing the full breadth of the task can lead to inaccurate task estimations.
-		- Stakeholder / External pressure: Project constraints such as deadlines and budgets can influence the estimation process.
-		- Parkinson's Law / Changing requirements: Parkinson's law is the observation of work expanding (new requirements) to fill the time available for its completion 
+		- Stakeholder / External pressure: Project constraints such as deadlines and budgets can influence the estimation process. Deadline pressures may lead to tasks being optimistically estimated and ultimately being inaccurately estimated.
+		- Parkinson's Law / Changing requirements: Parkinson's Law is the observation of work expanding (new requirements) to fill the time available for its completion. This can lead to inaccurate task estimations as the original estimation did not consider the new requirements.
 
 	- Considerations 
 
