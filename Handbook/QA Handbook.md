@@ -14,7 +14,7 @@
     - Checklist-Based Reviews - where reviewers follow a predetermined list of checks to follow while reviewing code.
     - Pair Programming - involves two developers, where a developer codes and gets real-time feedback off another developer (code review) on their code.
     - Pre-Commit Reviews - This is where code is reviewed before it is merged into the main branch.
-- Google mandates code reviews and and follows the Pre-commit review. Below is a diagram of their Code Review Flow.
+- Google mandates code reviews and follows the Pre-commit review. Below is a diagram of their Code Review Flow.
 
 ![Googles Code Review Flow](../Image_Folder/GoogleCRFlow.png)
 
@@ -30,7 +30,7 @@
     - Feedback should be constructive. Providing constructive feedback helps to enhance understanding and learning rather then incite competition or conflict.
 - For Reviewees
     - Reviewee must be receptive to feedback. They must have a willingness to learn and understand criticism is not personal.
-    - Code must be reviewed by the reviewee before requesting a code review, to save the reviewers from having to respond to miscellaneous errors such as spelling mistakes.
+    - Code must be reviewed and tested by the reviewee by the reviewee before requesting a code review, to save the reviewers from having to respond to miscellaneous errors such as spelling mistakes.
     - Seek and give clarity when needed. Be prepared to offer clarity on code you have produced and seek clarity when feedback is unclear.
     - Small, incremental code changes should be the aim as code with many lines is more strenuous to review. 
 
