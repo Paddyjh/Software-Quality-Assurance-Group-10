@@ -30,7 +30,7 @@
     - Feedback should be constructive. Providing constructive feedback helps to enhance understanding and learning rather then incite competition or conflict.
 - For Reviewees
     - Reviewee must be receptive to feedback. They must have a willingness to learn and understand criticism is not personal.
-    - Code must be reviewed and tested by the reviewee by the reviewee before requesting a code review, to save the reviewers from having to respond to miscellaneous errors such as spelling mistakes.
+    - Code must be reviewed and tested by the reviewee before requesting a code review.This saves the reviewers from having to respond to miscellaneous errors such as spelling mistakes.
     - Seek and give clarity when needed. Be prepared to offer clarity on code you have produced and seek clarity when feedback is unclear.
     - Small, incremental code changes should be the aim as code with many lines is more strenuous to review. 
 
