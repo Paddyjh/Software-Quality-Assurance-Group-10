@@ -21,8 +21,8 @@
 
 - There are many different approaches and techniques to estimating tasks, such as:
 
-	 - Planning Poker: Where team members estimate the effort of a task by playing a number card face down, then discussing all the estimates and coming to an agreement
-	- T-Shirt Sizes: Uses sizes (XS, S, M, L, XL) to estimate the size complexity of tasks
+	 - Planning Poker: Where team members estimate the effort of a task by playing a number card face down, then discussing all the estimates and coming to an agreement.
+	- T-Shirt Sizes: Uses sizes (XS, S, M, L, XL) to estimate the size complexity of tasks.
 	 - Fibonacci Story Points: Used to represent the effort required for completing a task using the Fibonacci number sequence 1,2,3,5,8,13.
 
 - Despite the variety of techniques available, there are foundational best practices that all teams should adhere to, regardless of the specific estimation method employed.
@@ -55,36 +55,37 @@
 #### Sprint Retrospective
 - Time should be allocated in the sprint retrospective to address estimations; this allows the team to identify common trends of over and under-estimation.
 - All team members should be included in these discussions, as each member can enrich the discussion and offer unique insights into how to more efficiently estimate a given task.
-![sprint-retrospective-diagram](/Image_Folder/sprint-retrospective-diagram.png)
- 
+
+ <img src="../Image_Folder/sprint-retrospective-diagram.png" height="400">
+
 #### Team Culture
 - A culture of learning and continuous improvement should be installed in the scrum team.
 - Discussion should be open; people should feel safe to explain why they misestimated their tasks, and others should be willing to provide feedback to them on how to improve. Individuals should embrace feedback to be more accurate in the future.
-- The team should following the following priciples in estimation
-![principles-of-good-agile-estimation](/Image_Folder/principles-of-good-agile-estimation.png)
- 
+- The team should following the following priciples in estimation.
+
+ <img src="../Image_Folder/principles-of-good-agile-estimation.png" height="500">
  
 #### Quantify and Track
-- Variance between estimates and actual task time should be measured and quantified so that overestimation or underestimation outside of a given threshold can be identified and discussed in meetings. Useful tools for this would be burndown charts or velocity tracking
-- It is important for the team to document planning processes, previous estimates and actual task time to inform new employees and future task estimation
+- Variance between estimates and actual task time should be measured and quantified so that overestimation or underestimation outside of a given threshold can be identified and discussed in meetings. Useful tools for this would be burndown charts or velocity tracking.
+- It is important for the team to document planning processes, previous estimates and actual task time to inform new employees and future task estimation.
  
 #### Dynamic estimation
-- Tasks should be regularly monitored during the sprint and if progress varies significantly from estimates, this should be flagged, identified why and then taken into consideration for planning similar tasks in the future
+- Tasks should be regularly monitored during the sprint and if progress varies significantly from estimates, this should be flagged, identified why and then taken into consideration for planning similar tasks in the future.
 - Task estimation is not an exact science, and estimates should be adjusted dynamically during the sprint as new information becomes available to ensure the team is informed and deadlines can be adjusted accordingly.
-- The team should experiment with different planning techniques as mentioned previously until they find one that produces the most accuracy for their team
+- The team should experiment with different planning techniques as mentioned previously until they find one that produces the most accuracy for their team.
 
 ### Team Velocity and Calculating Estimations 
 
 #### What is team velocity
 - Velocity, put simply, is the amount of work a team is capable of in a single sprint. This metric should be used as a tool for estimating/planning and not for performance.
 
-![team-velocity-diagram](/Image_Folder/team-velocity-diagram.png)
+<img src="../Image_Folder/team-velocity-diagram.png" height="300">
  
 #### Calculating Velocity
-- Historical data should be used to inform the team velocity based on story points or hours completed. This ensures that estimates are more informed and accurate
-- A consistent measurement process should be used to ensure all historical data is accurate, or if measurement metrics are changed this should be taken into account when viewing historical data
-- Teams should constantly review their team velocity, taking into account both historical and any new data added since the previous calculation
-- Velocity is not an exact science and variability should be accounted for in planning
+- Historical data should be used to inform the team velocity based on story points or hours completed. This ensures that estimates are more informed and accurate.
+- A consistent measurement process should be used to ensure all historical data is accurate, or if measurement metrics are changed this should be taken into account when viewing historical data.
+- Teams should constantly review their team velocity, taking into account both historical and any new data added since the previous calculation.
+- Velocity is not an exact science and variability should be accounted for in planning.
    
 #### Avoidances
 - Teams should avoid prioritising quantity of work over quality. Quality should not be compromised in order to close a task on time.
