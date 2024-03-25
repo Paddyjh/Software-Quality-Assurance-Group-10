@@ -16,7 +16,7 @@
     - Pre-Commit Reviews - This is where code is reviewed before it is merged into the main branch.
 - Google mandates code reviews and follows the Pre-commit review. Below is a diagram of their Code Review Flow.
 
-![Googles Code Review Flow](../Image_Folder/GoogleCRFlow.png)
+<img src="../Image_Folder/GoogleCRFlow.png" height="500" width="500"> 
 
 ### Best Practices for Conducting Effective Code Reviews
 
@@ -34,7 +34,7 @@
     - Seek and give clarity when needed. Be prepared to offer clarity on code you have produced and seek clarity when feedback is unclear.
     - Small, incremental code changes should be the aim as code with many lines is more strenuous to review. 
 
-    ![Tweet](../Image_Folder/@iamdeveloper_tweet.png)
+<img src="../Image_Folder/@iamdeveloper_tweet.png">
 
 
 ### The Psychological Aspects of Code Reviews
@@ -44,7 +44,7 @@
 - Ownership: The 'endowment effect' shows that people value their work more highly simply because it's theirs, making objective self-review and acceptance of criticism challenging.
 - Worthwhileness vs Conflict Potential: When conducting a code review, certain review comments will carry more risk of potential conflict and may not be worthwhile commenting while some comments are certainly worthwhile. To explain, below is a grid that places certain comments along two axes: worthwhileness and conflict potential. 
 
-    ![Worthwhileness vs Conflict Potential Diagram](../Image_Folder/WorthVSConflict.png)
+<img src="../Image_Folder/WorthVSConflict.png" height="500">
 
 - There are approaches both reviewers and reviewees can take to avoid conflict and encourage collaboration
     - Reviewers
