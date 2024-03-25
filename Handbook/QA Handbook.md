@@ -61,7 +61,7 @@
 #### Team Culture
 - A culture of learning and continuous improvement should be installed in the scrum team.
 - Discussion should be open; people should feel safe to explain why they misestimated their tasks, and others should be willing to provide feedback to them on how to improve. Individuals should embrace feedback to be more accurate in the future.
-- The team should follow the priciples below for estimation.
+- The team should follow the principles below for estimation.
 
  <img src="../Image_Folder/principles-of-good-agile-estimation.png" height="500">
  
