@@ -1,6 +1,33 @@
 ﻿# Quality Assurance Handbook
 
 ## Introduction
+**Welcome to our company software quality assurance handbook.**
+
+The purpose of the following document is to define and encourage guidelines and best practices for the topics outlined below to enhance software quality, team collaboration, and understanding.
+
+Each topic is divided into small digestible sections to facilitate ease of reading. Further information about each topic can be found in the references section at the bottom of the document. Each section also contains a link to the relevant reference subsection. 
+
+### Document Structure
+- [Task estimation in scrum](#task-estimation-in-scrum) 
+	- [Introduction to task estimation](#introduction-1)
+	- [Estimation Techniques](#estimation-techniques)
+	- [Challenges and Considerations for task estimation](#challenges-and-considerations-for-task-estimation)
+	- [Regular Estimation Reviews and Adjustments](#regular-estimation-reviews-and-adjustments)
+	- [Team Velocity and Calculating Estimations](#team-velocity-and-calculating-estimations)
+- [Code Reviews](#code-reviews)
+	- [What are code reviews](#what-are-code-reviews)
+	- [Best practices for conducting effective code reviews](#best-practices-for-conducting-effective-code-reviews)
+	- [The psychological aspect of code reviews](#the-psychological-aspects-of-code-reviews)
+	- [Advantages and disadvantages of code reviews](#advantages-and-disadvantages-of-code-reviews)
+	- [Code reviews in CI/CD](#code-reviews-in-cicd)
+- [Continuous Integration & Deployment](#continuous-integration--deployment) 
+	- [Introduction to CI/CD](#introduction-2)
+	- [Continuous integration workflow](#continuous-integration-workflow)
+	- [Automated Testing](#automated-testing) 
+	- [Deployment process](#deployment-process)
+	- [Monitoring and feedback loops](#monitoring-and-feedback-loops)
+	- [Security practices](#security-practices) 
+
 
 ## Task Estimation in Scrum
   
