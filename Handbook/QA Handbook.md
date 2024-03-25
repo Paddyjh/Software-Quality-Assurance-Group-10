@@ -1,4 +1,4 @@
-# Quality Assurance Handbook
+﻿# Quality Assurance Handbook
 
 ## Introduction
 
@@ -6,7 +6,7 @@
   
 ### Introduction  
 - Task estimation is the process a scrum team goes through outlining how long a given task or user story will take to complete. 
-    - Teams usually measure using units like story points, ideal days or hours. 
+    - Teams usually measure using units like story points which represent the estimated effort required to complete the task. 
 
     - There are also various methods for calculating these units, like planning poker and t-shirt sizing, etc, which we will discuss [below.](#estimation-techniques) 
     
@@ -21,8 +21,8 @@
 
 - There are many different approaches and techniques to estimating tasks, such as:
 
-	 - Planning Poker: Where team members estimate the effort of a task by playing a number card face down, then discussing all the estimates and coming to an agreement.
-	- T-Shirt Sizes: Uses sizes (XS, S, M, L, XL) to estimate the size complexity of tasks.
+	 - Planning Poker: Team members anonymously estimate the effort of a task by playing a number card that represents story points face down. Once everyone has given their estimates, all cards are revealed. The team then shares and discusses the rationale behind their decisions. This discussion leads to a collective agreement on the final estimate of the task.
+	 - T-Shirt Sizes: Uses sizes (XS, S, M, L, XL) to estimate the size complexity of tasks.
 	 - Fibonacci Story Points: Used to represent the effort required for completing a task using the Fibonacci number sequence 1,2,3,5,8,13.
 
 - Despite the variety of techniques available, there are foundational best practices that all teams should adhere to, regardless of the specific estimation method employed.
@@ -61,7 +61,7 @@
 #### Team Culture
 - A culture of learning and continuous improvement should be installed in the scrum team.
 - Discussion should be open; people should feel safe to explain why they misestimated their tasks, and others should be willing to provide feedback to them on how to improve. Individuals should embrace feedback to be more accurate in the future.
-- The team should following the following priciples in estimation.
+- The team should follow the priciples below for estimation.
 
  <img src="../Image_Folder/principles-of-good-agile-estimation.png" height="500">
  
