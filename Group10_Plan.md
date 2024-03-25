@@ -45,4 +45,10 @@ Each team member is fully aware of these deadlines and has committed to follow t
 | Team members facilitated knowledge sharing with less experienced colleagues e.g Git process & commands               |                       | We would try to respond quicker to comments left in pull requests    | 
 | The team enhanced their understanding of git and the git-flow process | | We would try to be more descriptive in certain comments to avoid ambiguity
 | The team gained valuable insights on all topics researched | | We would set up a jira board to break down tasks and track the project as it developed
-| 
+
+## Team Contribution
+| Team Member    | Contribution           | Verified By   |
+|----------------|------------------------|---------------|
+| Jiayu Liu      | - Contributed and offered opinions in all the meetings <br> - Researched and wrote up most of the Task Estimation in Scrum topic <br> - Also contriubted to the CI/CD topic <br> - Reviewed and commented on pull requests  <br> - Wrote up the teams contribution                 | Ross Crowley <br> Patrick Haughey           |
+| Patrick Haughey    | - Wrote up project plan  <br> - Researched and wrote up most of the CI/CD topic  <br>  - Also contriubted to the Code Reviews topic  <br> - Wrote up the handbook's introduction <br> - Reviewed and commented on pull requests            | Jiayu Liu <br> Ross Crowley             |
+| Ross Crowley              |   - Contributed and offered opinions in all the meetings  <br> - Researched and wrote up most of the Code Reviews topic <br> - Also contriubted to the Task Estimation in Scrum <br> - Wrote up the Teams retrospective  <br> - Reviewed and commented on pull requests               | Jiayu Liu <br> Patrick Haughey              |
