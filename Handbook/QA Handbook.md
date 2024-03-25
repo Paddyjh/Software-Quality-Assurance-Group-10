@@ -75,7 +75,8 @@
 - The team should experiment with different planning techniques as mentioned previously until they find one that produces the most accuracy for their team.
 
 #### Our Task estimation process
-![our-estimation-process-diagram](/Image_Folder/our-estimation-process-diagram.png)
+
+<img src="../Image_Folder/our-estimation-process-diagram.png" height="500">
 
 ### Team Velocity and Calculating Estimations 
 
