@@ -82,7 +82,7 @@
 #### Feature Toggle
 - Developers should implement feature toggle (or flags) to enable the toggling on and off of features without the need to redeploy code
 - This is useful with canary as it allows us to make dynamic changes to our application without downtime.
-- A step-by-step approach to app release that splits traffic between a deployed version and a new version, releasing to a subset of users before a full rollout.
+
 ![feature-toggle-diagram](/Image_Folder/feature-toggle-diagram.png)
 #### Roll back Strategy
 - The rollback strategy should be automatically triggered if the deployment fails, there is a significant increase in error rates, security vulnerabilities are detected or if user feedback is negative. 
@@ -92,7 +92,7 @@
 ![Monitoring_Feedback_Diagram](/Image_Folder/Monitoring_Feeback_Diagram.png)
 * View: During the project building process, keep update and send feedback to different parts is important. 
 * Adjustment: Feedback received by different departments to make changes. Improvement: Under the agile monitoring and feedback system, fast feedback, fast verification, and fast delivery are inevitable
-
+- Good reviews and feedback are important to help steer the developer in the right direction.
 ### Security Practices 
 - Software must ensure that its content, resource management, and its own characteristics, including its operating environment and connections between users, are hidden from unauthorized entities.
 - Software and the resources managed by it must be resistant to active attacks, protected from modification and destruction by unauthorized users, and able to recover from damaged states.
