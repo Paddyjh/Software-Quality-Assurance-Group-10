@@ -8,8 +8,8 @@
 
 ### What Are Code Reviews?
  
- - A code review is the task of someone who is not the author reviewing a piece of code before it is merged to the main codebase 
- - A code review is an essential practice to ensure that the code is high quality, aligns with predetermined standards, contains no mistakes
+ - A code review is the process of getting feedback and approval from other developers on submitted code before it is merged into the main codebase. 
+ - A code review is an essential practice for ensuring that the code meets predetermined standards, is of high quality, and is free from bugs.
  - Many companies practice different processes of how to carry out code reviews. Different processes depend on a number of factors such as, the level of experience of developers, specific project or regulatory requirements,and the complexity and lifecycle stage of the project, etc. Below are some different approaches:
     - Checklist-Based Reviews - where reviewers follow a predetermined list of checks to follow while reviewing code.
     - Pair Programming - involves two developers, where a developer codes and gets real-time feedback off another developer (code review) on their code.
@@ -20,13 +20,12 @@
 
 ### Best Practices for Conducting Effective Code Reviews
 
-- Although there are many different approaches to conducting a code review, there are some key practices that should be considered for the code review to be effective. 
-- As well as key practices, included in this section are some practices that we feel are beneficial to fostering a positive and effective feedback 
+- This section highlights key practices for both reviewers and reviewees that we believe are beneficial in fostering a positive and productive feedback environment.
 
 - For Reviewers
     - The reviewer should possess enough experience to effectively identify key aspects such as design, logic, and bugs.
-    - Adhere to a predefined checklist that define the goals and standards of the review process
-    - Code reviews should not be rushed to avoid code smells entering the main codebase. Limiting code review sessions or setting a maximum line of code (LOC) per hour can ensure that the reviewer does not lose focus
+    - Adhere to a predefined checklist that define the goals and standards of the review process.
+    - Code reviews should not be rushed to avoid code smells entering the main codebase. Limiting code review sessions or setting a maximum line of code (LOC) per hour can ensure that the reviewer does not lose focus.
     - Feedback should be constructive. Providing constructive feedback helps to enhance understanding and learning rather then incite competition or conflict.
 - For Reviewees
     - Reviewee must be receptive to feedback. They must have a willingness to learn and understand criticism is not personal.
@@ -46,7 +45,7 @@
 
 <img src="../Image_Folder/WorthVSConflict.png" height="500">
 
-- There are approaches both reviewers and reviewees can take to avoid conflict and encourage collaboration
+- Below are approaches both reviewers and reviewees can take to avoid conflict and encourage collaboration.
     - Reviewers
         - Use collaborative language and avoid using the word "You". For example, a better way of saying "Your code is inefficient" would be "How could we optimize this for better performance".
         - Avoid leaving many comments where possible as this can demotivate the reviewer, instead prioritise essential comments, which brings the code up to a level of acceptance.
@@ -64,16 +63,16 @@
 
 - **Disadvantages of code reviews**
     - **Time-consuming:** Code reviews can be time-consuming, taking time away from developing features, which can delay releases, especially in teams with limited developer capacity.
-        - Mitigation: Ensure the team spreads the work of code reviews, avoiding over-reliance on certain developers 
+        - Mitigation: Ensure the team spreads the work of code reviews, avoiding over-reliance on certain developers.
     - **Conflict potential:** The potential for conflict to arise among developers if opinions differ and communication is not polite/collaborative.
-        - Mitigation: Ensure all team members communicate in a collaborative and professional manner 
+        - Mitigation: Ensure all team members communicate in a collaborative and professional manner.
     - **Demoralizing:** Similarly, if feedback is not presented in a rude or non-constructive manner, the developer may feel demoralized and unmotivated.
-        - Mitigation: Ensure feedback is given in a constructive and respective manner 
+        - Mitigation: Ensure feedback is given in a constructive and respective manner. 
     - **Oversights:** There is always a risk that some bugs, bad practices, etc, may be overlooked by reviewers, especially if a review is long, and fatigue may play a factor.
         - Mitigation: Encourage smaller incremental changes to reduce the size of code reviews, set a time limit for looking at a code review in one sitting and introduce automation tools to identify issues early and reduce the number in reviews.
 
 ### Code reviews in CI/CD
-- Code reviews play an important role in the continuous integration and deployment process which is outlined [below](#continuous-integration--deployment)
+- Code reviews play an important role in the continuous integration and deployment process which is outlined [below](#continuous-integration--deployment).
 - Code reviews occur when a pull request is created to merge a branch into the develop branch after passing the automated tests.
 - Code reviews can also be automated using static analysis tools, linters, and automated security vulnerability scanners. These tools can automatically flag potential issues before a human reviewer looks at the code.
 
