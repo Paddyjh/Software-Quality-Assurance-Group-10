@@ -17,10 +17,12 @@
 
 
 ### Continuous Integration Workflow
-![continuous-integration-workflow-diagram](/Image_Folder/continuous-integration-workflow-diagram.png)
+<img src="/Image_Folder/continuous-integration-workflow-diagram.png" height="500">
+
 #### Gitflow compliance
 -	All developers must follow our company Gitflow branching strategy outlined in the diagram below and the following [link](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow).
-![gitflow-diagram](/Image_Folder/git-flow-diagram.png)
+<img src="/Image_Folder/git-flow-diagram.png" height="500">
+
 #### Committing practices
 -	Developers are encouraged to commit changes to their branches often (commit once one logical unit of work is completed)
 #### CI platform integration
@@ -45,7 +47,7 @@
 - Next Integration tests are used to test that different pieces of software interact with each other as expected.
 - Next End to end test, which runs through the entire system are run. It is recommended to limit the number of these as they can take a long time and be flaky.
 - Finally, performance testing is used to assess how a system will perform in a production-like environment using Load and Stress tests.
-![test-pyramid-strategy-diagram](/Image_Folder/test-pyramid-strategy-diagram.png)
+<img src="/Image_Folder/test-pyramid-strategy-diagram.png" height="500">
 
 #### Test Coverage
 - Although not an exact science a minimum of 80% coverage is recommended.
@@ -62,7 +64,7 @@
 #### Parallel Test Execution 
 - The test suite should be segmented and run in parallel. 
 - This facilitates quicker feedback, better usage of our resources, and increased test coverage as we can now run more tests.
-![parallel-test-execution-diagram](/Image_Folder/parallel-test-execution-diagram.png)
+<img src="/Image_Folder/parallel-test-execution-diagram.png" height="500">
 
 ### Deployment Process 
 
@@ -72,27 +74,31 @@
 	- Data and feedback are gathered from the users and is incorporated into the new version before deploying to the entire user base
 	- If an issue is identified we can roll back the application to the previous state and address the issues, which will only affect the canary users
 	- We incrementally roll out the update to more users until all users are on the updated version, continuing to incorporate feedback and monitor the application 
-    ![canary-strategy-diagram](/Image_Folder/canary-strategy-diagram.png)
+    <img src="/Image_Folder/canary-strategy-diagram.png" height="500">
 
 #### Automatic Deployment Process
 - Deployment similar to integration should be automated using CI/CD tools like Jenkins 
 - Infrastructure as code should be used to ensure a consistent environment, tools like Terraform and Ansible should be utilised 
-![automatic-deployment-diagram](/Image_Folder/automatic-deployment-diagram.png)
+<img src="/Image_Folder/automatic-deployment-diagram.png" height="500">
 
 #### Feature Toggle
 - Developers should implement feature toggle (or flags) to enable the toggling on and off of features without the need to redeploy code
 - This is useful with canary as it allows us to make dynamic changes to our application without downtime.
 
-![feature-toggle-diagram](/Image_Folder/feature-toggle-diagram.png)
+<img src="/Image_Folder/feature-toggle-diagram.png" height="400">
+
 #### Roll back Strategy
 - The rollback strategy should be automatically triggered if the deployment fails, there is a significant increase in error rates, security vulnerabilities are detected or if user feedback is negative. 
 - If the issue is feature-specific, we can toggle the feature off and either remove it or improve based on feedback. If the issue is more widespread we roll back to previous stable version. 
 
 ### Monitoring and feedback loops
-![Monitoring_Feedback_Diagram](/Image_Folder/Monitoring_Feeback_Diagram.png)
+<img src="/Image_Folder/Monitoring_Feeback_Diagram.png" height="500">
+
 * View: During the project building process, keep update and send feedback to different parts is important. 
-* Adjustment: Feedback received by different departments to make changes. Improvement: Under the agile monitoring and feedback system, fast feedback, fast verification, and fast delivery are inevitable
-- Good reviews and feedback are important to help steer the developer in the right direction.
+* Adjustment: Feedback received by different departments to make changes. 
+* Improvement: Under the agile monitoring and feedback system, fast feedback, fast verification, and fast delivery are inevitable
+	- Good reviews and feedback are important to help steer the developer in the right direction.
+
 ### Security Practices 
 - Software must ensure that its content, resource management, and its own characteristics, including its operating environment and connections between users, are hidden from unauthorized entities.
 - Software and the resources managed by it must be resistant to active attacks, protected from modification and destruction by unauthorized users, and able to recover from damaged states.
