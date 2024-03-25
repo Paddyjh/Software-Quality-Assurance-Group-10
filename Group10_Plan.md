@@ -35,3 +35,14 @@ Each team member is fully aware of these deadlines and has committed to follow t
 -   Feature branches must be named in the following format: "feature/Name-Of-Feature"
 -   All commits must be named in the following format: "Name-Of-Feature-description-of-commit" **(Only the Feature name is capitalised)**
 -   Bug fix branches must be named in the following format: "bugfix/description-of-bugfix"
+
+## Team Retrospective
+
+| What went well? | What didn't go well? | What can we do differently next time? |
+|-----------------|-----------------------|---------------------------------------|
+| Team collaboration on pull request                | Some deadlines were adjusted as project developed                      |  Set more realistic deadlines, taking other assignments deadlines and team member schedules into consideration                                    | 
+| Active communication throughout the project, via WhatsApp and Teams               | Did not have set meeting times due to timetable conflicts                       |  Try to establish a regular meeting time                                     |
+| Team members facilitated knowledge sharing with less experienced colleagues e.g Git process & commands               |                       | We would try to respond quicker to comments left in pull requests    | 
+| The team enhanced their understanding of git and the git-flow process | | We would try to be more descriptive in certain comments to avoid ambiguity
+| The team gained valuable insights on all topics researched | | We would set up a jira board to break down tasks and track the project as it developed
+| 
